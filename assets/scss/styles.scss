@@ -1,0 +1,146 @@
+body {
+    /* color: red; */
+    // min-height: 100vh;
+}
+
+nav button{
+    
+    /* color: red !important; */
+}
+
+nav button:hover {
+    .circle {
+    width: 100%;
+}
+.button-text{
+    color: #fff;
+}
+}
+
+
+nav{
+ button{
+position: relative;
+    border: 0;
+    width: 12.9rem;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    font-size: inherit;
+
+    &:hover{
+        .arrow{
+transform: translate(1rem, 0);
+     background: #fff;
+        }
+    };
+
+
+ }
+
+}
+
+ .button-text {
+transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.35rem 0;
+    margin: 0 0 0 2.85rem;
+    color: #282936;
+    left: 0;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .circle {
+     transition: all 0.4s ease-in-out;
+     position: relative;
+     display: block;
+     margin: 0;
+     width: 2.5rem;
+     height: 2.5rem;
+     background: #10B981;
+     border-radius: 1.625rem;
+ }
+
+ 
+
+ .icon {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     background: #fff;
+ }
+
+
+
+ .arrow {
+     transition: all 0.4s ease-in-out;
+     left: 0.625rem;
+     width: 1.125rem;
+     height: 0.125rem;
+     background: none;
+
+     &::before{
+         position: absolute;
+         content: '';
+         top: -0.25rem;
+         right: 0.2rem;
+         width: 0.625rem;
+         height: 0.625rem;
+         border-top: 0.125rem solid #fff;
+        border-right: 0.125rem solid #fff;
+        transform: rotate(45deg);
+
+     }
+ }
+
+ button:hover .arrow {
+     
+ }
+
+ .intro-info{
+    //  writing-mode: vertical-rl;
+    //      margin: 20px auto;
+    // padding: 10px;
+
+        display: flex;
+    // -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,34px);
+    white-space: nowrap;
+
+
+     &::before {
+    //      content: "";
+    // display: block;
+    // width: 1px;
+    // height: 90px;
+    // margin: 0px auto;
+    // background-color: red;
+    content: "";
+    display: block;
+    position: relative;
+    // top: -5px;
+    width: 150px;
+    height: 3px;
+    margin-right: 20px;
+    background-color:rgba(59, 130, 246, 0.5);
+     }
+ }
+
+ .project-list {
+
+    & li::nth-of-type(2n+1) {
+    margin: 0px 0px 5px 20px;
+}
+ }

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap");
 body {
   /* color: red; */
+  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 nav button {
@@ -116,5 +118,22 @@ nav button:hover .arrow {
 
 .project-list li::nth-of-type(2n+1) {
   margin: 0px 0px 5px 20px;
+}
+
+.contact-section ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000;
+}
+
+.contact-section ul li p {
+  width: 4rem;
+}
+
+.contact-section ul li a {
+  margin-left: 1rem;
+  color: #4a4a4a;
+  font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */

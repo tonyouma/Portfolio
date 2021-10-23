@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 body {
     /* color: red; */
     // min-height: 100vh;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 nav button{
@@ -143,4 +145,22 @@ transition: all 0.4s ease-in-out;
     & li::nth-of-type(2n+1) {
     margin: 0px 0px 5px 20px;
 }
+ }
+
+ .contact-section {
+     ul {
+         li {
+             display: flex;
+             color: #000;
+             p{
+                 width: 4rem;
+             }
+
+             a{
+                 margin-left: 1rem;
+                 color: #4a4a4a;
+                 font-weight: 600;
+             }
+         }
+     }
  }

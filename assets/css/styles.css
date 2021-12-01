@@ -4,6 +4,11 @@ body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
+.hero-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 nav button {
   /* color: red !important; */
 }

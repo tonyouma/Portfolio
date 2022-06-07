@@ -108,6 +108,7 @@ nav button:hover .arrow {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  /* position: sticky; */
   margin: 10px 0px 40px;
   width: 100%;
   font-size: clamp(16px, 5vw, 24px);
@@ -242,6 +243,13 @@ nav button:hover .arrow {
 .wrapper .kaggle:hover .tooltip,
 .wrapper .kaggle:hover .tooltip::before {
   background-color: #20beff;
+  color: #ffffff;
+}
+
+.wrapper .upwork:hover,
+.wrapper .upwork:hover .tooltip,
+.wrapper .upwork:hover .tooltip::before {
+  background-color: #6fda44;;
   color: #ffffff;
 }
 

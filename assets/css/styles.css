@@ -167,6 +167,11 @@ nav button:hover .arrow {
   font-weight: 600;
 }
 
+.imageContainer > img:hover {
+  width: 800px;
+  height: 200px;
+}
+
 @media screen and (max-width: 39.9375em) {
   body {
     padding-bottom: 20px;

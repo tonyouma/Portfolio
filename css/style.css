@@ -255,3 +255,15 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Point-zoom Container */
+.point-img-zoom img {  
+  transform-origin: 65% 75%;  
+  transition: transform 1s, filter .5s ease-out;
+}
+
+/* The Transformation */
+.point-img-zoom:hover img { 
+  transform: scale(5);
+}
